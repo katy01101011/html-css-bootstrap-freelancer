@@ -284,3 +284,21 @@ form .star-line {
 #floatingTextarea {
     height: 200px;
 }
+
+/* FORM - Media Query */
+
+/* Tablet */
+
+@media all and (min-width: 768px) {
+    
+    form .star-line {
+        width: 70px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    
+    form .star-line {
+        width: 110px;
+    }
+}
