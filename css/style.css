@@ -13,6 +13,7 @@
 /*
 star: <i class="fas fa-star"></i>
 burger: <i class="fas fa-bars"></i>
+download: <i class="fas fa-download"></i>
 */
 
 /* COMMON */
@@ -37,6 +38,10 @@ a:hover {
 
 img {
     width: 100%;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 /* HEADER */
@@ -127,7 +132,7 @@ nav a>i {
 }
 
 .star {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .clear {
@@ -136,6 +141,10 @@ nav a>i {
 
 .dark {
     background-color: var(--font-dark);
+}
+
+.s_width {
+    width: 40px;
 }
 
 .m_width {
@@ -208,3 +217,20 @@ main>.container-fluid {
         width: 80%;
     }
 }
+
+/* ABOUT SECTION */
+
+.about {
+    width: 100%;
+    color: var(--font-clear);
+    font-size: 1.3rem;
+    background-color: var(--main-green);
+}
+
+.about_container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+
