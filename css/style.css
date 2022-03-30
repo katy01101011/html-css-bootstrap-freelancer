@@ -1,0 +1,210 @@
+/* Colors */
+:root {
+    --header: #2C3E50;
+    --main-green: #1ABC9C;
+    --footer: #3A546D;
+    --copyright: #2C3E50;
+    --font-clear: #FFFFFF;
+    --font-dark: #2C3E50;
+    --line: #CCCCCC;
+}
+
+/* Icons */
+/*
+star: <i class="fas fa-star"></i>
+burger: <i class="fas fa-bars"></i>
+*/
+
+/* COMMON */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--main-green)
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+
+nav {
+    color: var(--font-clear);
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    background-color: var(--header);
+    z-index: 99;
+}
+
+.title-menu {
+    font-size: 1.5rem;
+}
+
+.burger-menu {
+    padding-right: 0;
+}
+
+.text-menu {
+    display: none;
+}
+
+nav a {
+    padding: 0 1rem;
+}
+
+nav a>i {
+    padding: .5rem 1rem;
+}
+
+/* Nav - Media Query */
+
+/* Tablet */
+
+@media all and (min-width: 768px) {
+    
+    nav {
+        padding: 0 2rem;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .text-menu {
+        display: inline-block;
+    }
+}
+
+/* Display */
+
+@media all and (min-width: 1200px) {
+    
+    nav {
+        padding: 0 10%;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .text-menu {
+        display: inline-block;
+    }
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    width: 100%;
+    background-color: var(--main-green);
+    color: var(--font-clear);
+}
+
+.jumbo-content {
+    padding-top: 5rem;
+}
+
+.jumbo-img {
+    width: 300px;
+}
+
+/* Star item */
+
+.star-line {
+    height: 3px;;
+    display: inline-block;
+}
+
+.star {
+    font-size: 1.5rem;
+}
+
+.clear {
+    background-color: var(--font-clear);
+}
+
+.dark {
+    background-color: var(--font-dark);
+}
+
+.m_width {
+    width: 70px;
+}
+
+/* Jumbotron - Media Query */
+
+/* Tablet */
+
+@media all and (min-width: 768px) {
+    
+    .jumbo-img {
+        width: 150px;
+        padding-top: 2rem;
+    }
+    .star {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+    .jumbo-content {
+        padding-bottom: 1.5rem;
+    }
+}
+
+/* Display */
+
+@media all and (min-width: 1200px) {
+    
+    .star-line {
+        width: 110px;
+    }
+}
+
+/* MAIN */
+
+main>.container-fluid {
+    color: var(--font-dark);
+}
+
+.main-img {
+    width: 100%;
+}
+
+.card {
+    border-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+.card>img {
+    border-radius: 10px;
+}
+
+/* Jumbotron - Media Query */
+
+/* Tablet */
+
+@media all and (min-width: 768px) {
+
+    .img-wrapper {
+        width: 90%;
+    }
+}
+
+/* Display */
+
+@media all and (min-width: 1200px) {
+    
+    .img-wrapper {
+        width: 80%;
+    }
+}
