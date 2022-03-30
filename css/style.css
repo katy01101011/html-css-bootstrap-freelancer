@@ -234,14 +234,16 @@ main>.container-fluid {
     margin: 0 auto;
 }
 
-.about .btn {
+.my_btn {
     font-size: 1.3rem;
-    color: inherit;
+    color: var(--font-clear);
     background-color: var(--main-green);
     border: 1px solid white;
+    padding: .5rem 1rem;
+    border-radius: 7px;
 }
 
-.about .btn:hover {
+.my_btn:hover {
     color: var(--main-green);
     background-color: var(--font-clear);
 }
@@ -250,4 +252,35 @@ main>.container-fluid {
     padding-bottom: 1.5rem;
 }
 
+/* FORM - Contact Me */
 
+.form_container {
+    width: 60%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+form .star-line {
+    width: 40px;
+}
+
+.form-control {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-floating {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.form-floating>label {
+    padding-left: 0;
+}
+
+#floatingTextarea {
+    height: 200px;
+}

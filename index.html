@@ -19,15 +19,16 @@
     <link rel="icon" href="img/favicon_b.png" type="image/x-icon" sizes="16x16" />
 </head>
 <body>
+    <!-- Nav -->
     <nav>
         <div class="container-fluid">
             <div class="row fw-bold text-uppercase">
-                <div class="col-6">
+                <div class="col-9 col-md-6">
                     <a class="title-menu" href="">
                         Start bootstrap
                     </a>
                 </div>
-                <div class="menu col-6 d-flex justify-content-end">
+                <div class="menu col-3 col-md-6 d-flex justify-content-end">
                     <a class="burger-menu" href="">
                         <i class="fas fa-bars border border-1 rounded-3"></i>
                     </a>
@@ -52,7 +53,9 @@
             </div>
         </div>
     </nav>
+    <!-- /Nav -->
 
+    <!-- Jumbotron -->
     <div class="jumbotron text-uppercase">
         <div class="container-fluid">
             <div class="col-12">
@@ -79,7 +82,11 @@
             </div>
         </div>
     </div>
+    <!-- /Jumbotron -->
+
+    <!-- Main -->
     <main>
+        <!-- Portfolio -->
         <section class="container-fluid text-uppercase d-flex flex-column align-items-center mb-5">
             <h2 class="mt-5">Portfolio</h2>
             <div class="star-item d-flex align-items-center pb-3 mt-2">
@@ -128,6 +135,9 @@
                 </div>
             </div>
         </section>
+        <!-- /Portfolio -->
+
+        <!-- About -->
         <section class="about">
             <div class="about_container pt-5">
                 <div class="container-fluid">
@@ -155,7 +165,7 @@
                             </p>
                         </div>
                         <div class="col-12 text-center">
-                            <div class="btn mb-5">
+                            <div class="btn my_btn mb-5">
                                 <i class="fas fa-download"></i>
                                 <span>Download</span>
                             </div>
@@ -164,6 +174,66 @@
                 </div>
             </div>
         </section>
+        <!-- /About -->
     </main>
+    <!-- /Main -->
+
+    <!-- Form -->
+    <form action="">
+        <div class="form_container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center">
+                        <h2 class="mt-4">
+                            Contact me
+                        </h2>
+                        <div class="star-item d-flex align-items-center pb-3 mt-2">
+                            <div class="star-line rounded-1 dark"></div>
+                
+                            <div class="star px-1">
+                                <i class="fas fa-star"></i>
+                            </div>
+                
+                            <div class="star-line rounded-1 s_width dark"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Name">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="name@example.com">
+                            <label for="floatingPassword">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Phone number">
+                            <label for="floatingPassword">Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Message</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="btn my_btn mt-4 mb-5">
+                            <span>Send</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- /Form -->
 </body>
 </html>
