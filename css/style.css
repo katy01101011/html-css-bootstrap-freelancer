@@ -162,8 +162,10 @@ nav a>i {
         padding-top: 2rem;
     }
     .star {
-        font-size: 1rem;
-        margin: 0 1rem;
+        margin: 0 .5rem;
+    }
+    .star-line {
+        width: 70px;
     }
     .jumbo-content {
         padding-bottom: 1.5rem;
