@@ -371,3 +371,10 @@ form .star-line {
         padding-bottom: 3rem;
     }
 }
+
+/* Footer */
+
+footer {
+    color: var(--font-clear);
+    background-color: var(--copyright);
+}
