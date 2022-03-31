@@ -14,6 +14,11 @@
 star: <i class="fas fa-star"></i>
 burger: <i class="fas fa-bars"></i>
 download: <i class="fas fa-download"></i>
+
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-google-plus-g"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin-in"></i>
 */
 
 /* COMMON */
@@ -25,6 +30,7 @@ html {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -42,6 +48,12 @@ img {
 
 h2 {
     text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 /* HEADER */
@@ -246,6 +258,7 @@ main>.container-fluid {
 .my_btn:hover {
     color: var(--main-green);
     background-color: var(--font-clear);
+    border: 1px solid var(--main-green);
 }
 
 .about p {
@@ -296,9 +309,65 @@ form .star-line {
     }
 }
 
+/* Desktop */
+
 @media all and (min-width: 1200px) {
     
     form .star-line {
         width: 110px;
+    }
+}
+
+/* INFO */
+
+.info {
+    color: var(--font-clear);
+    background-color: var(--footer);
+}
+
+.info p {
+    font-size: 1.2rem;
+}
+
+.info p a {
+    color: var(--main-green);
+}
+
+.info p a:hover {
+    text-decoration: underline;
+}
+
+/* Social */
+
+.social a {
+    font-size: 1.3rem;
+}
+
+.social a div {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border: 1px solid var(--font-clear);
+    border-radius: 50%;
+}
+
+.social a div:hover {
+    border-color: var(--main-green);
+}
+
+.social li {
+    margin: .5rem;
+}
+
+/* INFO - Media Query */
+
+/* Mobile */
+
+@media all and (max-width: 768px) {
+    
+    .info .row {
+        padding-bottom: 3rem;
     }
 }
